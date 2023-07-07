@@ -531,23 +531,23 @@ while True:
     if operación == "14":
         print("Ha seleccionado la opción 14\n")
         if lista_tiene_elementos(empresa.lista_empleados):
-            print("Ha seleccionado la opción 14\n")
+            print("Lista de los empleados de oficina de la empresa: \n")
             Empresa.mostrar_lista_empleados_oficina(empresa)
             dni_a_ver= validar_dni(input("Ingrese el DNI de la persona que desea aprobar su solicitud: "))
             empresa.aprobar_días_libres(dni_a_ver)
         else:
             print("No hay ningún empleado cargado a la lista.") 
-    if operación == "14":
-        print("Ha seleccionado la opción 14\n")
+    if operación == "15":
+        print("Ha seleccionado la opción 15\n")
         if lista_tiene_elementos(empresa.lista_empleados):
-            print("Ha seleccionado la opción 14\n")
+            print("Lista de los empleados de oficina de la empresa: \n")
             Empresa.mostrar_lista_empleados_oficina(empresa)
             dni_a_ver= validar_dni(input("Ingrese el DNI de la persona que desea rechazar su solicitud: "))
             empresa.rechazar_días_libres(dni_a_ver)
         else:
             print("No hay ningún empleado cargado a la lista.") 
     if operación == "16":
-        print("Ha seleccionado la opción 14.\n")
+        print("Ha seleccionado la opción 16.\n")
         print("Gracias, !Nos vemos pronto¡")
         break
 
